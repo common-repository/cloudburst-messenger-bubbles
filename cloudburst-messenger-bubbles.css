@@ -1,0 +1,42 @@
+.wp-block-cloudburst-messenger-bubble {
+	width: fit-content;
+    max-width: 500px;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: left !important;
+    font-size: .8em;
+    line-height: 170%;
+}
+
+@media only screen and (max-width: 800px) {
+	.wp-block-cloudburst-messenger-bubble {
+		max-width: 350px;
+	    line-height: 150%;
+	    padding-left: 1.5em;
+	    padding-right: 1.5em;
+	}
+}
+
+.wp-block-cloudburst-messenger-timestamp {
+	margin-bottom: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: .8em;
+}
+
+.wp-block-cloudburst-messenger-bubble-quote {
+	font-style: italic;
+	background-color: #d7d8de;
+	font-size: .7em;
+}
+
+.wp-block-cloudburst-messenger-timestamp-quote {
+	font-style: italic;
+	color: #67696e;
+	font-size: .7em;
+}
